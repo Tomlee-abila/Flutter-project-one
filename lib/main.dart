@@ -41,12 +41,12 @@ class _LoginPageState extends State<LoginPage> {
               children: [
 
               //Welcome to chat
-                const SizedBox(height: 60),
+                SizedBox(height: 60),
                 Padding(
                   padding: const EdgeInsets.all(0.0),
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.center,
-                    children: const [
+                    children: [
                       Text(
                         'Welcome to chat',
                         style: TextStyle(
@@ -73,15 +73,15 @@ class _LoginPageState extends State<LoginPage> {
 
 
               //Quote
-                const SizedBox(height: 30),
-                const Text(
+                SizedBox(height: 30),
+                Text(
                   "Fewer meetings, less internal email,",
                   style: TextStyle(
                     fontSize: 20,
                   ),
                 ),
 
-                const Text(
+                Text(
                   "all your tools intergrated.",
                   style: TextStyle(
                     fontSize: 20,
